@@ -1,0 +1,56 @@
+header{
+    margin:auto;
+    width: 999px;
+}
+body{
+    background-color: cadetblue;
+}
+h1{
+    
+    background-color: gray;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    width: 699px;
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    border: 9px solid cadetblue;
+}
+
+.conteudo{
+    background-color: gray;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    width: 699px;
+    text-align: center;
+    padding: 69px;
+    border: 29px solid cadetblue;
+    border-radius:49px;
+    
+}
+.observacao{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+nav{
+    background-color: rgb(194, 0, 0);
+    margin: 9px;
+    padding: 7.5px;
+    box-shadow: 3px 3px 3px black;
+}
+a{
+    
+    padding: 7.5px;
+    margin: auto;
+    
+    
+}
+footer{
+   background-color: rgb(44, 44, 44);
+   width: 999px;
+   margin: auto;
+   border-radius: 5px;
+}

@@ -1,0 +1,136 @@
+@charset 'UTF-8';
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+@font-face {
+    font-family: 'Lato';
+    src: url(../fontes/Lato/Lato-Regular.ttf);
+}
+@font-face {
+    font-family: 'LatoNegrito';
+    src: url(../fontes/Lato/Lato-Bold.ttf);
+}
+
+
+
+:root{
+--cor1: #60F562;
+--cor2: #3BBC08;
+--cor3: #529130;
+--cor4: #124218;
+--cor5: #456633;
+--fonte1: 'Lato';
+--fonte2: 'LatoNegrito';
+
+}
+
+body{
+    background-color: chartreuse;
+}
+article{
+    max-width: 749px;
+    min-width: 310px;
+}
+header{
+    background-color: var(--cor2);
+    padding: 10px;
+    
+}
+ header p{
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+ }
+
+header h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+nav{
+    background-color: var(--cor4);
+    padding: 9px;
+    font-family: var(--fonte1);
+}
+nav a{
+    color: rgb(0, 183, 255);
+    text-decoration: none;
+    padding-right: 5px;
+    font-family: var(--fonte1);
+}
+a:hover{
+    background-color: lightgreen;
+    color: white;
+    padding: 8px;
+    border-radius: 10px;
+    transition-duration: .5s;
+}
+
+main{
+    background-color: aliceblue;
+    width: 799px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 30px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.432);
+    margin-bottom: 30px;
+}
+
+main p{
+    font-family: 'Lato';
+    line-height: 2em;
+    text-align: justify;
+    font-size: 1.5em;
+    
+}
+main h1{
+    font-family: var(--fonte2);
+    font-size: 3.5em;
+}
+
+img{
+    width: 500px;
+    margin: auto;
+    display: block;
+    padding: 45px;
+}
+
+aside{
+    background-color: var(--cor1);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-radius: 40px;
+    width: 750px;
+    padding-left: 20px;
+}
+
+aside p{
+    margin-left: 25px;
+    font-size: 1.4em;
+}
+.redessociais{
+    font-size: 2em;
+}
+
+aside a{
+    color: rgb(0, 68, 255);
+}
+
+aside a:hover{
+    color: var(--cor1);
+    background-color: var(--cor3);
+}
+
+li{
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-bottom: -10px;
+    
+}
